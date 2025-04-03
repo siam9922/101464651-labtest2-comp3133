@@ -1,0 +1,19 @@
+
+<mat-card class="details-card" *ngIf="character">
+  <div class="details-wrapper">
+    <div class="image-section">
+      <img [src]="character.image || 'assets/placeholder.png'" alt="{{ character.name }}">
+    </div>
+    <div class="info-section">
+      <h2 class="character-name">{{ character.name }}</h2>
+      <p><strong>House: </strong><span class="house">{{ character.house || 'N/A' }}</span></p>
+      <p><strong>Actor: </strong><span class="actor">{{ character.actor }}</span></p>
+      <p><strong>Wizard: </strong><span class="wizard">{{ character.wizard }}</span></p>
+      <p><strong>Species: </strong><span class="species">{{ character.species }}</span></p>
+      <p><strong>Ancestry: </strong><span class="ancestry">{{ character.ancestry || 'Unknown' }}</span></p>
+      <p><strong>Wand Wood: </strong><span class="wand">{{ character.wand?.wood || 'N/A' }}</span></p>
+      <p><strong>Wand Core: </strong><span class="wand">{{ character.wand?.core || 'N/A' }}</span></p>
+      <p><strong>Wand Length: </strong><span class="wand">{{ character.wand?.length || 'N/A' }}</span></p>
+    </div>
+  </div>
+</mat-card>

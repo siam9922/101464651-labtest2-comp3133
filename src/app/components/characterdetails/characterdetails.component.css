@@ -1,0 +1,60 @@
+.details-card {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem;
+  max-width: 850px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.details-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.image-section img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.character-name {
+  color: red;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.house {
+  color: gold;
+}
+
+.actor {
+  color: #f1c40f;
+}
+
+.wizard {
+  color: #00e676;
+}
+
+.species {
+  color: #ffeb3b;
+}
+
+.ancestry {
+  color: orange;
+}
+
+.wand {
+  color: yellow;
+}

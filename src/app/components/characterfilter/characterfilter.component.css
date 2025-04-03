@@ -1,0 +1,58 @@
+.filter-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.character-card {
+  width: 200px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.character-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.character-name {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+}
+
+.actor {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.house {
+  margin: 0.2rem 0 0.5rem;
+  font-weight: bold;
+}
+
+.house.gryffindor {
+  color: red;
+}
+
+.house.slytherin {
+  color: green;
+}
+
+.house.ravenclaw {
+  color: blue;
+}
+
+.house.hufflepuff {
+  color: goldenrod;
+}
